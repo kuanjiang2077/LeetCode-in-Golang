@@ -1,8 +1,9 @@
-package main
-
+package printinOrder
 import "fmt"
 
-func main() {
+type Foo struct {}
+
+func (*Foo) Foo() {
 	cs := make([]chan int, 3)
 	for i := range cs {
 		cs[i] = make(chan int)
@@ -34,3 +35,4 @@ func third(c chan int) {
 	fmt.Println("three")
 	c <- 1
 }
+
