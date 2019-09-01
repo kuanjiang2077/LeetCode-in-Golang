@@ -1,4 +1,4 @@
-package printinOrder
+package foo
 import "fmt"
 
 type Foo struct {}
