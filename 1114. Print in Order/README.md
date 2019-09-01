@@ -1,4 +1,4 @@
-usage:
+Usage:
 you can use like below
 ``` go
 func main() {
