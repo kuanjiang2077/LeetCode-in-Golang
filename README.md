@@ -1,3 +1,2 @@
 # LeetCode-in-Golang
-mostly easy and medium questions
-rarely hard questions 
+mostly easy and medium questions, rarely hard questions 
